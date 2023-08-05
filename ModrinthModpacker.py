@@ -6,7 +6,7 @@ import tkinter as tk
 from zipfile import ZipFile
 from threading import Thread
 
-modrinthHeaders = {"User-Agent": "Provi Modpack Installer (https://github.com/Provismet) no repo yet"}
+modrinthHeaders = {"User-Agent": "Provi Modpack Installer (https://github.com/Provismet/Modrinth-Modpack-Installer)"}
 
 class OutputDisplay (tk.Frame):
     def __init__ (self, *args, **kwargs):
