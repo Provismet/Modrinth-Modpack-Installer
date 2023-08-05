@@ -11,5 +11,6 @@ Modrinth doesn't currently support downloading modpacks directly from the websit
 5. Press download.
 
 ## Notes
-The installer will create a temporary folder in the same directory that it is placed in (`./modrinthInstallerTemp`), this folder *should* be automatically deleted when execution finishes.  
-If the installer fails to remove the temporary folder for whatever reason then a message will be logged asking you to do so manually.
+- The installer will create a temporary folder in the same directory that it is placed in (`./modrinthInstallerTemp`), this folder *should* be automatically deleted when execution finishes.  
+  - If the installer fails to remove the temporary folder for whatever reason then a message will be logged asking you to do so manually.
+- The installer may fail if the modpack file, the destination folder, and itself are not all placed within the same drive. Move your files around as appropriate.
